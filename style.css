@@ -7,6 +7,14 @@ html{
     background-color: rgb(220, 220, 220);
     }
 
+ul{
+    margin: auto;
+    display: flex;
+    max-width: fit-content;
+    padding: 10px;
+    list-style: none;
+}
+
 h1{
     text-align: center;
     
@@ -54,6 +62,11 @@ p{
     margin: auto;
 }
 
+.imagen{
+    padding:10%;
+    margin: auto;
+}
+
 footer{
     text-align: center;
     font-size: small;
@@ -64,3 +77,6 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
+
+
+
