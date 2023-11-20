@@ -4,7 +4,7 @@ html{
     font-family: 'Courier New', Courier, monospace;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: rgb(200, 200, 200);
+    background-color: rgb(220, 220, 220);
     }
 
 h1{
@@ -24,9 +24,39 @@ h1{
 }
 
 .caja{
-    background-color: rgb(225, 225, 225);
-    border-radius: 25px;
+    margin: auto;
+    max-width: 800px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 10px;
     padding: 10px;
+    box-shadow: inset 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        inset -6px -6px 10px -1px rgba(255, 255, 255, 0.6);
 }
 
+h1, h2, h3, h4{
+    text-align: center;
+    
+}
 
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.texto{
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
