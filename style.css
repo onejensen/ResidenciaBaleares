@@ -44,8 +44,12 @@ p{
     
 }
 
-.texto{
+.tx{
     text-align: center;
+}
+
+.texto{
+    text-align: justify;
     max-width: 700px;
     margin: auto;
 }
