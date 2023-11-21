@@ -7,12 +7,12 @@ html{
     background-color: rgb(220, 220, 220);
     }
 
-ul{
-    margin: auto;
+.flags{
     display: flex;
-    max-width: fit-content;
-    padding: 10px;
-    list-style: none;
+    justify-content: center;
+    flex-direction: row;
+    /*list-style: none;*/
+  
 }
 
 h1{
@@ -78,9 +78,7 @@ a{
     font-weight: bold;
 }
 
-.flags{
-    margin: auto;
-}
+
 
 
 
