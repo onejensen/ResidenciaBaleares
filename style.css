@@ -49,9 +49,14 @@ h1, h2, h3, h4{
     
 }
 
+p, h1, h2, h3, h4, h5{
+    cursor:default;
+}
+
 p{
     margin-left: 20px;
     margin-right: 20px;
+    
     
 }
 
@@ -67,7 +72,7 @@ p{
 
 .imagen{
     
-    margin: 1vw;
+    padding: 1vw;
 }
 
 footer{
@@ -79,6 +84,7 @@ footer{
 a{
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 
