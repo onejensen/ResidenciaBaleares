@@ -1,40 +1,41 @@
-html{
+html {
     /*background-image:url(/img/baleares.webp);
     background-size: cover;*/
     font-family: 'Courier New', Courier, monospace;
     margin-left: 10%;
     margin-right: 10%;
     background-color: rgb(220, 220, 220);
-    }
+}
 
-.flags{
+.flags {
+    margin: 20px;
+
     display: flex;
     justify-content: center;
     flex-direction: row;
+    gap: 2vw;
     /*list-style: none;*/
-  
+
 }
 
-h1{
+h1 {
     margin: auto;
     text-align: center;
     max-width: 800px;
-    margin-top: 10px
-    
 }
 
-.subtitulo{
+.subtitulo {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.contacto{
+.contacto {
     text-align: center;
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
 }
 
-.caja{
+.caja {
     margin: auto;
     max-width: 800px;
     background-color: rgb(220, 220, 220);
@@ -44,50 +45,39 @@ h1{
         inset -6px -6px 10px -1px rgba(255, 255, 255, 0.6);
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     text-align: center;
-    
+
 }
 
-p, h1, h2, h3, h4, h5{
-    cursor:default;
+p, h1, h2, h3, h4, h5 {
+    cursor: default;
 }
 
-p{
+p {
     margin-left: 20px;
     margin-right: 20px;
-    
-    
+    text-align: justify;
 }
 
-.tx{
+.tx {
     text-align: center;
 }
 
-.texto{
+.texto {
     text-align: justify;
     max-width: 800px;
     margin: auto;
 }
 
-.imagen{
-    
-    padding: 1vw;
-}
-
-footer{
+footer {
     text-align: center;
     font-size: small;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
     font-weight: bold;
-    
+
 }
-
-
-
-
-
