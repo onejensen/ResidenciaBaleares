@@ -32,7 +32,7 @@ h1 {
 .contacto {
     text-align: center;
     font-weight: bold;
-    font-size: x-large;
+    font-size:x-large;
 }
 
 .caja {
@@ -57,7 +57,7 @@ p, h1, h2, h3, h4, h5 {
 p {
     margin-left: 20px;
     margin-right: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .tx {
